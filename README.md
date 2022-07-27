@@ -21,3 +21,5 @@ Telegram Bot PHP Library is a library written in PHP, for faster deployment of a
 
 ### How do I start to code my bot?
 Some [code examples](Code%20Examples) is provided as a initial guidance in bot development. These codes are simple and newbie friendly, no more worries.
+
+Of course, make sure you know PHP! You may [learn PHP from W3Schools](https://www.w3schools.com/php/default.asp) or from other resources.
