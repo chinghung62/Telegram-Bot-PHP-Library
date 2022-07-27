@@ -9,7 +9,7 @@ Telegram Bot PHP Library is a library written in PHP, for faster deployment of a
 
 ### Before using the library... make sure you know how to set up a bot.
 **Here are the steps:**
-1. Contact [@BotFather](https://t.me/botfather) to create a bot. Get the API Token of the bot.
+1. Contact [@BotFather](https://t.me/botfather) to create a bot. Get the API token of the bot.
 2. Setup a server and place your bot's script on the server (e.g., your PC or web hosting services).
 3. Set a webhook by using [setWebhook](https://core.telegram.org/bots/api#setwebhook) method. Insert URL in your browser as below:<br>
    `https://api.telegram.org/bot<token>/setWebhook?url=<bot_script_URL>`<br>
