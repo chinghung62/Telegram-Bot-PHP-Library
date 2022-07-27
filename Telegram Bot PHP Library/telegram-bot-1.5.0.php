@@ -10,11 +10,13 @@ TELEGRAM BOT PHP Library v1.5.0
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 TELEGRAM BOT is written in PHP, for faster deployment of a newly created
-Telegram bot.
+Telegram bot. It supports chat bot development by making development easier,
+reducing complexity and making the code shorter.
 
 Receive incoming HTTPS POST requests (contains bot update data) sent from
 Telegram servers, and respond to these updates by interacting with Telegram Bot
-API to make bot 'alive'. This library is suitable for PHP webhook script.
+API to make bot 'alive'. This library is for bot script that uses webhook to
+receive bot updates.
 
 Refer Telegram Bot ("https://core.telegram.org/bots") to know how to create a
 Telegram bot.
