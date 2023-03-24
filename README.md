@@ -13,7 +13,7 @@ Telegram Bot PHP Library is a library written in PHP, for faster implementation 
 - Please refer to the [Telegram's Terms of Service](https://telegram.org/tos). Inappropiate usage might potentially get your account banned. Use this library as your own risk.
 
 ## Installation
-This library requirs no installation. Manually download the library `.php` file and import into your script using `include` or `require` keyword.
+This library requires no installation. Manually download the library `.php` file and import into your script using `include` or `require` keyword.
 
 ## Quick Start
 > *Before using the library... make sure you know how to set up and host a bot.*
