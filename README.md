@@ -15,7 +15,7 @@ Telegram Bot PHP Library is a library written in PHP, for faster deployment of a
    `https://api.telegram.org/bot<token>/setWebhook?url=<bot_script_URL>`<br>
    where:<br>
    `<token>`: API token of the bot<br>
-   `<bot_script_URL>`: URL of the script for the bot<br><br>
+   `<bot_script_URL>`: URL of the script for the bot<br>
 4. Refer [here](https://core.telegram.org/bots) for more information.
 <br>
 
