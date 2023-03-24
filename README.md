@@ -32,4 +32,4 @@ This library requirs no installation. Manually download the library `.php` file 
 > *Some [code examples](Code%20Examples) are provided as the initial guidance in bot development. These codes are simple and newbie friendly, no more worries. Of course, make sure you know PHP! You may [learn PHP from W3Schools](https://www.w3schools.com/php/default.asp) or from other resources.*
 
 ## Documentations
-*The full documentation for Telegram Bot PHP Library will be released in the future. Stau tuned.*
+*The full documentation for Telegram Bot PHP Library will be released in the future. Stay tuned.*
