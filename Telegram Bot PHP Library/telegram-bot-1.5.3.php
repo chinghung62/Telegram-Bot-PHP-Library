@@ -72,8 +72,8 @@ Basic usage:
 
 Copyright (c) 2021-2023 KuickBot. All rights reserved.
 
-Version      : 1.5.3.6
-Last updated : 23/03/2023, 16:26:34 UTC
+Version      : 1.5.3.7
+Last updated : 24/03/2023, 00:59:41 UTC
 Author       : Tan Ching Hung
 GitHub       : chinghung62
 Telegram     : @chinghung62
@@ -654,7 +654,7 @@ class Bot {
         */
 
         $url = $this->URL .
-            "sendMediaGroup?=chat_id" . $chat_id .
+            "sendMediaGroup?chat_id=" . $chat_id .
             "&media=" . json_encode($media) .
             "&disable_notification=" . $silent .
             "&protect_content=" . $protected .
@@ -753,7 +753,7 @@ class Bot {
         */
 
         $url = $this->URL .
-            "sendVenue?=chat_id" . $chat_id .
+            "sendVenue?chat_id=" . $chat_id .
             "&latitude=" . $latitude .
             "&longitude=" . $longitude .
             "&title=" . $name .
@@ -791,7 +791,7 @@ class Bot {
         */
 
         $url = $this->URL .
-            "sendContact?=chat_id" . $chat_id .
+            "sendContact?chat_id=" . $chat_id .
             "&phone_number=" . $phone_number .
             "&first_name=" . $first_name .
             "&last_name=" . $last_name .
