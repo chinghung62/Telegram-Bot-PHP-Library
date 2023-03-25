@@ -40,7 +40,7 @@ This library requires no installation. Manually download the library `.php` file
 2. Create a Bot object.
 
     ```
-    $bot = new Bot($bot_token, $bot_username);
+    $bot = new Bot(<bot_token>, <bot_username>);
     ```
 3. Load received update.
 
