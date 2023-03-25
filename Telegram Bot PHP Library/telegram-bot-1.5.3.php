@@ -11,7 +11,7 @@ TELEGRAM BOT PHP Library v1.5.3
 This library refers and follows up to Telegram Bot API 6.5 (February 3, 2023).
 
 
-TELEGRAM BOT is written in PHP, for faster deployment of a newly created
+TELEGRAM BOT is written in PHP, for faster implementation of a newly created
 Telegram bot. It supports chat bot development by making development easier,
 reducing complexity and making the code shorter.
 
@@ -69,8 +69,6 @@ Basic usage:
     |                                                                   |
     +-------------------------------------------------------------------+
 
-
-Copyright (c) 2021-2023 KuickBot. All rights reserved.
 
 Version      : 1.5.3.7
 Last updated : 24/03/2023, 00:59:41 UTC
@@ -3580,7 +3578,7 @@ class BotCommandScopeChatAdministrators {
         */
 
         $bot_command_scope_chat_administrators = [
-            "type" => "chat",
+            "type" => "chat_administrators",
             "chat_id" => $chat_id
         ];
         return $bot_command_scope_chat_administrators;
@@ -3603,7 +3601,7 @@ class BotCommandScopeChatMember {
         */
 
         $bot_command_scope_chat_member = [
-            "type" => "chat",
+            "type" => "chat_member",
             "chat_id" => $chat_id,
             "user_id" => $user_id
         ];
