@@ -18,7 +18,7 @@ This library requires no installation. Manually download the library `.php` file
 ## Quick Start
 > *Before using the library... make sure you know how to set up and host a bot.*
 
-**Here are the steps:**
+### Getting Started
 1. Contact [@BotFather](https://t.me/botfather) to create a bot. Get the API token of the bot.
 2. Setup a server and place your bot's script on the server (e.g., your PC or web hosting services).
 3. Set a webhook by using [setWebhook](https://core.telegram.org/bots/api#setwebhook) method. Insert URL in your browser as below:
@@ -30,6 +30,24 @@ This library requires no installation. Manually download the library `.php` file
 
 **How do I start to code my bot?**
 > *Some [code examples](Code%20Examples) are provided as the initial guidance in bot development. These codes are simple and newbie friendly, no more worries. Of course, make sure you know PHP! You may [learn PHP from W3Schools](https://www.w3schools.com/php/default.asp) or from other resources.*
+
+### Basic Usage
+1. Include the library.
+
+    ```
+    include("telegram-bot-1.5.3.php");
+    ```
+2. Create a Bot object.
+
+    ```
+    $bot = new Bot($bot_token, $bot_username);
+    ```
+3. Load received update.
+
+    ```
+    $php_input = file_get_contents("php://input");
+    $update = $bot->load_update($php_input);
+    ```
 
 ## Documentations
 *The full documentation for Telegram Bot PHP Library will be released in the future. Stay tuned.*
