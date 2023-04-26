@@ -1,5 +1,5 @@
 # Telegram-Bot-PHP-Library
-Telgram Bot PHP is a very basic and non-modular PHP library for fast implementation, providing opportunity for a quick experience of bot deployment. It is a beginner-friendly library compared to other powerful libraries.
+Telegram Bot PHP is a very basic and non-modular PHP library for fast implementation, providing opportunity for a quick experience of bot deployment. It is a beginner-friendly library compared to other powerful libraries.
 
 All types, methods and parameters are supported **EXCEPT** those for *WebApp*, *Payments*, *Telegram Passport* and *Games*. Some of the methods for *Stickers* are not provided.
 
